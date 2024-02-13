@@ -1,0 +1,18 @@
+/** app/ui/home.module.css
+ *
+ * Function ---------------
+ * What does this file do?
+ * Why is it required?
+ * ------------------------
+ * 
+ * Author | workflow
+ * mrsdo@29signals.com | GitHub: https://github.com/mrsdo
+ */
+
+.shape {
+    height: 0;
+    width: 0;
+    border-bottom: 30px solid #58819f;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+}
