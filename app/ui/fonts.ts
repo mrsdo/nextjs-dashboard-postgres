@@ -9,7 +9,7 @@
  * mrsdo@29signals.com | GitHub: https://github.com/mrsdo
  */
 
-import {Inter, Lusitana, Roboto} from 'next/font/google';
+import {Inter,Roboto} from 'next/font/google';
 
 export const baseFont = Inter({
     subsets: ['latin'],
