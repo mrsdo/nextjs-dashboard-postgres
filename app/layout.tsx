@@ -1,6 +1,6 @@
 import '@/app/ui/global.css';
 import {baseFont, inter} from '@/app/ui/fonts';
-import { ThemeProviders } from '@/app/ui/theme-providers';
+
 import { siteConfig } from '@/data/config/site.settings';
 import { Metadata } from 'next';
 import M29Logo from "@/app/ui/m29-logo";
@@ -94,13 +94,13 @@ export default function RootLayout({
 
       </head>
       <body className={`${inter.className} flex flex-col bg-white text-black antialiased min-h-screen`}>
-      <ThemeProviders>
+
           <div className="flex flex-col bg-white text-black antialiased min-h-screen">
 
 
               {children}
           </div>
-      </ThemeProviders>
+
       </body>
       </html>
 );
