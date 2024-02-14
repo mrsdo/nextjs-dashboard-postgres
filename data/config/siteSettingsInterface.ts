@@ -32,4 +32,3 @@ export interface SiteMetadata {
   theme: 'system' | 'dark' | 'light';
   locale: string;
 }
-

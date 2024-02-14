@@ -1,4 +1,4 @@
-import {  roboto } from '@/app/ui/fonts';
+import { roboto } from '@/app/ui/fonts';
 import {
   AtSymbolIcon,
   KeyIcon,

@@ -13,7 +13,8 @@ const domain = 'shegottablog.com';
 
 const metadata = {
   title: 'Shegottablog',
-  description: "SHEGOTTABLOG is a personal technology documentation site that I use to explore technology research questions and implementation methods.  Most of my work pertains to Next.js, MERN (MongoDB, Express, React, Node.js), forging seamless database integration and venturing into the electrifying universe of ApolloGraphQL.",
+  description:
+    'SHEGOTTABLOG is a personal technology documentation site that I use to explore technology research questions and implementation methods.  Most of my work pertains to Next.js, MERN (MongoDB, Express, React, Node.js), forging seamless database integration and venturing into the electrifying universe of ApolloGraphQL.',
   domain: 'shegottablog.com',
   logoTitle: '',
   businessName: 'SheGottaBlog, LLC. A subsidiary of the R. Dolce Group',
@@ -34,7 +35,7 @@ const metadata = {
   author: 'SheGottaBlog',
   language: 'en-us',
   theme: 'system',
-  locale: 'en-US'
+  locale: 'en-US',
 };
 
 module.exports = { metadata, domain };

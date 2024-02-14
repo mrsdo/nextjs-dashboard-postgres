@@ -14,8 +14,6 @@ const { metadata } = require('./metadata');
 /** @typedef {import("siteSettingsInterface.ts").SiteConfig } */
 const siteConfig = {
   ...metadata,
-
-
 };
 
 module.exports = { siteConfig };
