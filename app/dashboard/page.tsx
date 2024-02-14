@@ -18,9 +18,11 @@ import RevenueChart from '@/app/ui/dashboard/revenue-chart';
 import LatestInvoices from '@/app/ui/dashboard/latest-invoices';
 import { roboto } from '@/app/ui/fonts';
 import { fetchRevenue } from '@/app/lib/fetchRevenue';
+import { fetchLatestInvoices } from '@/app/lib/fetchLatestInvoices';
 
 export default async function Page() {
     const revenue = await fetchRevenue();
+    const latestInvoices = await fetchLatestInvoices();
     // @ts-ignore
     return (
         <main>
@@ -39,7 +41,7 @@ export default async function Page() {
             </div>
             <div className="mt-6 grid grid-cols-1 gap-6 md:grid-cols-4 lg:grid-cols-8">
                 <RevenueChart revenue={revenue}  />
-                {/* <LatestInvoices latestInvoices={latestInvoices} /> */}
+                <LatestInvoices latestInvoices={latestInvoices} />
             </div>
         </main>
     );
