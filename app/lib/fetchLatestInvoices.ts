@@ -10,13 +10,7 @@
  */
 import { sql } from '@vercel/postgres';
 import {
-    LatestInvoiceRaw,
-    CustomerField,
-    CustomersTableType,
-    InvoiceForm,
-    InvoicesTable,
-    User,
-    Revenue,
+    LatestInvoiceRaw
 } from './definitions';
 import { formatCurrency } from './utils';
 
